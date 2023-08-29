@@ -1,7 +1,12 @@
+import React, { useState } from "react";
+
+import { AnimatePresence } from "framer-motion";
+
+import { AboutMe } from "@/components/sample1/AboutMe";
 import { Hero } from "@/components/sample1/Hero";
 import { Loader } from "@/components/sample1/Loader";
-import { AnimatePresence } from "framer-motion";
-import React, { useState } from "react";
+import { ContactForm } from "@/components/sample1/contact/ContactForm";
+import { Skills } from "@/components/sample1/skills/Skills";
 
 const Index = () => {
   const [isLoaded, setIsLoaded] = useState(true);
@@ -16,10 +21,12 @@ const Index = () => {
   return (
     <>
       <AnimatePresence>{isLoaded ? null : <Loader />}</AnimatePresence>
+
       <main>
         <Hero />
-
-        <div>Test</div>
+        <AboutMe />
+        <Skills />
+        <ContactForm />
       </main>
     </>
   );

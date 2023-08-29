@@ -21,7 +21,7 @@ export default function Home() {
               href="/sample1"
               className="inline-block p-4 hover:bg-slate-50"
             >
-              自己紹介サイト
+              オシャレカフェ風
             </Link>
           </li>
         </ul>
