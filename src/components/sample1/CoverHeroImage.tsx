@@ -42,14 +42,14 @@ export const CoverHeroImage = () => {
         initial="hidden"
         animate="show"
       >
-        <DelayText text={"W"} className="text-7xl" />
-        <DelayText text={"e"} className="text-7xl" />
-        <DelayText text={"l"} className="text-7xl" />
-        <DelayText text={"l"} className="text-7xl" />
-        <DelayText text={"c"} className="text-7xl" />
-        <DelayText text={"o"} className="text-7xl" />
-        <DelayText text={"m"} className="text-7xl" />
-        <DelayText text={"e"} className="text-7xl" />
+        <DelayText text={"W"} className="text-8xl" />
+        <DelayText text={"e"} className="text-8xl" />
+        <DelayText text={"l"} className="text-8xl" />
+        <DelayText text={"l"} className="text-8xl" />
+        <DelayText text={"c"} className="text-8xl" />
+        <DelayText text={"o"} className="text-8xl" />
+        <DelayText text={"m"} className="text-8xl" />
+        <DelayText text={"e"} className="text-8xl" />
       </motion.div>
 
       <Overlay />
