@@ -18,11 +18,10 @@ const config: Config = {
           "primary": "#1e40af",
           "secondary": "#bfdbfe",
           "info": "#e5e7eb",
-          // "secondary": "#93c5fd",
         },
         "company2": {
-          "primary": "#2C3178",
-          "secondary": "#3A409D"
+          "primary": "rgb(23,37,84)",
+          "secondary": "rgb(56,189,248)"
         }
       }
     },
