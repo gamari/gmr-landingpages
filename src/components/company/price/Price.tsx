@@ -2,8 +2,8 @@ import React from "react";
 
 export const Price = () => {
   return (
-    <div className="border border-primary w-full">
-      <div className="bg-secondary flex items-center justify-center p-4">
+    <div className="border border-company1-primary w-full">
+      <div className="bg-company1-secondary flex items-center justify-center p-4">
         <div className="font-bold text-lg">基本プラン</div>
       </div>
 

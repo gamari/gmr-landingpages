@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="bg-primary text-white pt-10 flex flex-col items-center justify-center">
+    <div className="bg-company1-primary text-white pt-10 flex flex-col items-center justify-center">
       <div className="text-sm"></div>
       <div className="text-3xl">アプリ名</div>
 
