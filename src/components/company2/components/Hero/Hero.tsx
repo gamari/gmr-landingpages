@@ -9,6 +9,7 @@ export const Hero = () => {
   return (
     <div
       className="
+      py-20
       bg-company2-primary text-white min-h-[400px]
       flex items-center justify-center
     "
