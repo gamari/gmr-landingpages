@@ -4,7 +4,7 @@ import { AiOutlineFieldTime } from "react-icons/ai";
 
 export const Feature = () => {
   return (
-    <SlideIn direction="bottom">
+    <SlideIn direction="bottom" delay={1500}>
       <div className="w-full max-w-[500px] bg-white flex flex-col items-center pt-4 px-4 pb-6">
         <div className="text-xl font-bold">レンタル</div>
 

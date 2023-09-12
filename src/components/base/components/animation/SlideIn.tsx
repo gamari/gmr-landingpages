@@ -11,6 +11,7 @@ const variants = {
       type: "spring",
       damping: 10,
       stiffness: 70,
+      delay: 0.3,
     },
   }),
   hidden: (direction: string) => {
@@ -31,12 +32,14 @@ interface Props {
   direction?: "left" | "right" | "bottom";
   isVisible?: boolean;
   children: ReactNode;
+  delay?: number;
 }
 
 export const SlideIn: FunctionComponent<Props> = ({
   direction = "left",
   isVisible = true,
   children,
+  delay = 0,
 }) => {
   const controls = useAnimation();
   const ref = useRef(null);
