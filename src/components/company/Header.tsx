@@ -1,4 +1,4 @@
-import React, { useState, FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Sidebar } from "./Sidebar";
 import { useModal } from "../base/hooks/useModal";

@@ -4,7 +4,14 @@ import { Navigation } from "./Navigation";
 
 export const Header = () => {
   return (
-    <header className="h-16 border-b flex justify-center flex-col px-2 md:px-6">
+    <header
+      className={`
+      fixed flex justify-center flex-col
+      w-full h-16
+      px-2 md:px-6
+      text-white 
+    `}
+    >
       <div className="flex flex-row justify-between items-center">
         <Logo />
 

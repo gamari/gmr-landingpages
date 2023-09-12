@@ -3,7 +3,7 @@ import React from "react";
 
 export const Feature = () => {
   return (
-    <SlideIn>
+    <SlideIn direction="bottom">
       <div className="border-2 border-company1-primary bg-white w-[90%] mx-auto relative">
         <div className="absolute top-0 bg-company1-primary text-white right-[50%] translate-y-[-50%] translate-x-[50%] text-[2rem] w-12 h-12 text-center flex items-center justify-center rounded-full">
           1

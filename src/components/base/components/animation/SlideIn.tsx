@@ -4,6 +4,7 @@ import React, { FunctionComponent, ReactNode, useRef } from "react";
 const variants = {
   visible: (direction: string) => ({
     x: 0,
+    y: 0,
     opacity: 1,
     transition: {
       duration: 0.5,
@@ -12,14 +13,22 @@ const variants = {
       stiffness: 70,
     },
   }),
-  hidden: (direction: string) => ({
-    x: direction === "left" ? "-100%" : "100%",
-    opacity: 0,
-  }),
+  hidden: (direction: string) => {
+    let x = "0%";
+    let y = "0%";
+    if (direction === "left") x = "30%";
+    if (direction === "bottom") y = "-30%";
+
+    return {
+      x,
+      y,
+      opacity: 0,
+    };
+  },
 };
 
 interface Props {
-  direction?: "left" | "right";
+  direction?: "left" | "right" | "bottom";
   isVisible?: boolean;
   children: ReactNode;
 }
