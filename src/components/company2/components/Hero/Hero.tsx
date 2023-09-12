@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Button } from "../Button";
 import { HeroTitle } from "./HeroTitle";
 import { HeroCaption } from "./HeroCaption";
+import { motion } from "framer-motion";
 
 export const Hero = () => {
   return (
@@ -15,7 +16,10 @@ export const Hero = () => {
         h-screen
       `}
     >
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1 }}
         className="
           flex 
           max-w-[1000px] mx-auto p-6 
@@ -38,7 +42,7 @@ export const Hero = () => {
             alt="img"
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

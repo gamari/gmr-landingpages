@@ -6,11 +6,11 @@ export const Header = () => {
   return (
     <header
       className={`
-      fixed flex justify-center flex-col
-      w-full h-16
-      px-2 md:px-6
-      text-white 
-    `}
+        fixed flex justify-center flex-col
+        w-full h-16
+        px-4 md:px-6
+        text-white 
+      `}
     >
       <div className="flex flex-row justify-between items-center">
         <Logo />
